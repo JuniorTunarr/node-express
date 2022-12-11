@@ -46,7 +46,7 @@ app.get("/sound/:name", (req, res) => {
     name === "dog"
       ? res.json({ sound: "멍멍" })
       : name === "cat"
-      ? res.json({ sound: "야옹" })
+      ? res.json({ sound: "야옹" }) 
       : name === "pig"
       ? res.json({ sound: "꿀꿀" })
       : res.json({ sound: "알수없음" });
